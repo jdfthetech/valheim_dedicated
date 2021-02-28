@@ -9,7 +9,7 @@ Restart=on-failure
 RestartSec=10
 User=<username>
 WorkingDirectory=/home/<username>/Valheim
-ExecStart=/bin/bash /home/<username>/Valheim/start_valheim.sh
+ExecStart=/bin/bash /home/<username>/Valheim/valheim.sh
 
 [Install]
 WantedBy=multi-user.target
