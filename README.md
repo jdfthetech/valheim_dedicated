@@ -10,4 +10,4 @@ https://developer.valvesoftware.com/wiki/SteamCMD#Anonymous
 
 mkdir ~/Valheim 
 
-steamcmd +login anonymous +force_install_dir /home/<username>/Valheim +app_update 896660 validate +exit
+steamcmd +login anonymous +force_install_dir /home/\<username\>/Valheim +app_update 896660 validate +exit
